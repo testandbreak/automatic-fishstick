@@ -126,9 +126,11 @@ Then using web browser load the [LivingDoc](LivingDoc.html) results report.
 
 - The create user scenario that uses a table is an example only of the use of
   tables in
+
     - Scenario definitions
     - parsing in Steps code to instantiate data objects
     - comparing in Steps code to verify data
+
   however in this specific situation it adds unncessary verbosity to the
   scenario definition and is limited on the expansion to use examples.
 
