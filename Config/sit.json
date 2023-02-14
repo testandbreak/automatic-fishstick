@@ -1,0 +1,4 @@
+{
+    "BaseAPIURL": "https://reqres.in/api/",
+    "SecretServerAPIURL": "https://api.secretserver.local/api/"
+}
