@@ -61,7 +61,7 @@ and log/audit access to secrets (generally used in production environments but
 also of usefl to apply secure practices to non-production environemnts)
 
 ```powershell
-$Env:QA_SCRETSERVER_APIKEY="2asd32%ad0skjas(#J%Jrd"
+$Env:QA_SECRETSERVER_APIKEY="2asd32%ad0skjas(#J%Jrd"
 ```
 
 ## Execution
