@@ -58,7 +58,7 @@ Set the Secret Server API Key should be set as an environment variable for the
 process (can be hidden in most pipeline toolsets) - this is a good approach 
 when working in secure environments where you use a secured server to manage
 and log/audit access to secrets (generally used in production environments but
-also of usefl to apply secure practices to non-production environemnts)
+also of usefil to apply secure practices to non-production environemnts)
 
 ```powershell
 $Env:QA_SECRETSERVER_APIKEY="2asd32%ad0skjas(#J%Jrd"
@@ -146,9 +146,9 @@ Then using web browser load the [LivingDoc](LivingDoc.html) results report.
     design your framework so that we can query for another justuser with
     minimalchanges to the framework.
 5.	In the framework, try to implement best practices
-    a.	The framework should be able to run in multiple environments.
+    -	The framework should be able to run in multiple environments.
         ( Test, SIT, UAT/Pre-Prod etc)
-    b.	The framework should be able to use secrets/passwords/sensitive
+    -	The framework should be able to use secrets/passwords/sensitive
         information effectively
-    c.	Ability to run as single threaded or multi threaded.
-    d.	Bonus points for the ability to generate events and listen to events
+    -	Ability to run as single threaded or multi threaded.
+    -	Bonus points for the ability to generate events and listen to events
